@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;500;600;700&family=Lexend:wght@200;300;400;500;600;700;800&family=Montserrat+Alternates:ital,wght@0,300;0,400;0,700;1,500&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300&family=Source+Sans+Pro:ital,wght@0,300;0,600;0,700;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+/* Header */
+.bars{
+    display: none;
+}
+header {
+    position: absolute;
+    width: 100%;
+}
+.container{
+    width: min(90%,80rem);
+    margin-inline:auto;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+}
+nav{
+    flex: 1;
+}
+.hero-section {
+    background-color: #636c79;
+    padding: 10rem 0 5rem 0;
+}
+
+.header-logo {
+    width: 8rem;
+}
+
+.header-logo img{
+    max-width: 100%;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 4rem;
+    margin-right: 5rem;
+}
+a.nav-links {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+}
+.talk a {
+    padding: 0.8rem 2.5rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.banner-image {
+    width: 70rem;
+}
+.banner-image img{
+    max-width: 100%;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    gap: 5rem;
+}
+
+.banner-content {
+    text-align: left;
+    color: #ffffff;
+}
+
+.banner-content h1 {
+    font-size: 3.3rem;
+}
+.banner-content p {
+    line-height: 1.8rem;
+    padding: 2rem 0;
+}
+input[type="text"] {
+    padding: 1rem;
+    width: 25rem;
+    border: none;
+    outline: none;
+}
+button {
+    padding: 0.7rem;
+    background-color: #8bb7a2;
+    color: #ffffff;
+    border: none;
+    position: absolute;
+    left: 19.5rem;
+
+}
+.subscribe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    position: relative;
+}
+/* connect-business */
+
+section.connect-business {
+    padding: 5rem 0;
+}
+
+.heading {
+    text-align: center;
+    /* padding: 0 0 3rem 0; */
+    font-size: 1.5rem;
+}
+
+.projects-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.image-section {
+    text-align: center;
+}
+
+.image-section img {
+    max-width: 100%;
+}
+
+/*  */
+
+section.care {
+    margin: 4rem 0;
+}
+
+.website-design {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5rem;
+    gap: 5rem;
+}
+.section-content{
+    flex: 1;
+}
+.team-member {
+    width: 30rem;
+    flex: 1;
+}
+
+.team-member img {
+    max-width: 100%;
+}
+
+.section-content h2 {
+    /* flex: 1; */
+    font-size: 2.5rem;
+}
+
+.section-content p {
+    line-height: 1.5rem;
+    max-width: 25rem;
+    margin: 2rem 0;
+}
+
+.section-content a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #ffffff;
+    background-color: #8bb7a2;
+    padding: 1rem 2rem;
+    display: inline-block;
+}
+
+.digital-market .section-content {
+    order: 1;
+}
+
+.digital-market .team-member {
+    right: 0;
+}
+
+/* last-section */
+.creative-team-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.creative-team-heading h1 {
+    flex: 1;
+    font-size: 2.5rem;
+    max-width: 30rem;
+}
+
+.creative-team-heading p {
+    flex: 1;
+    font-size: 1rem;
+    line-height: 1.9rem;
+    align-self: self-start;
+    max-width: 40rem;
+}
+
+.creative-team-image {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+/* .individual-content {
+    flex: 1;
+    margin-inline: auto;
+} */
+.individual-heading {
+    max-width: 25rem;
+}
+.individual-image {
+    max-width: 100%;
+}
+
+.individual-image img {
+    max-width: 100%;
+}
+
+.individual-content p {
+    padding-right: 6rem;
+    line-height: 1.5rem;
+}
+
+.individual-content h3 {
+    padding: 1rem 0;
+}
+section.creative-team {
+    padding-bottom: 5rem;
+}
+
+/* footer */
+footer{
+    background-color: #10181d;
+}
+
+.logo-icons {
+    padding: 5rem 0 4rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #1e262b;
+}
+
+.logo {
+    width: 10rem;
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+i.fa-brands {
+    background-color: #282f34;
+    padding: 1rem;
+    border-radius: 50%;
+    color: #ffffff;
+    margin-left: 1rem;
+}
+
+.footer-nav {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 3rem 0;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.our-products h2,
+.top-features h2,
+.resources h2,
+.company h2,
+.favourite-things h2 {
+    padding: 1rem 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.our-products ul li a,
+.top-features ul li a,
+.resources ul li a,
+.company ul li a,
+.favourite-things ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 2.5rem;
+    color: #878c8f;
+}
